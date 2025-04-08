@@ -62,9 +62,10 @@ The following SQL queries were developed to answer specific business questions:
 
 Q. Write a SQL query to retrieve all columns for sales made on '2022-11-05:
 
-SELECT *
-FROM retail_sales
-WHERE sale_date = '2022-11-05';
+select * from p1
+where
+sale_date = '2022-11-05'
+
 Write a SQL query to retrieve all transactions where the category is 'Clothing' and the quantity sold is more than 4 in the month of Nov-2022:
 SELECT 
   *
@@ -170,4 +171,4 @@ Customer Insights: Reports on top customers and unique customer counts per categ
 
 Conclusion
 
-This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behavior, and product performance.
+This project serves as a comprehensive introduction to SQL for data analysts, covering database setup, data cleaning, exploratory data analysis, and business-driven SQL queries. The findings from this project can help drive business decisions by understanding sales patterns, customer behaviour, and product performance.
